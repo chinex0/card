@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-image: url(chu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+} */
+.container{
+    width: 250PX;
+    height: 55vh;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid red;
+}
+.container .image{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.container .image img{
+    height: 250px;
+    width: 100%;
+}
